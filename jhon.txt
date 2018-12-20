@@ -1,0 +1,7 @@
+jueves 13/12 trabaje el footer, dandole color, alineando los elementos  y  reponsive.
+
+viernes 14/12 posicione la primera imagen del fondo con los titulos de manera responsive y comente el plugin del tiempo en Countdown.vue,  en la pagina principal quite el fondo oscuro que tenia en lenguage.vue e intente cuadrar el fondo.
+
+lunes 17/12 cuadre fondo en lenguage.vue(la imagen la alargue con photoshop, preguntar si puedo hacer esto), nota:acordarme de colocar los witkit a los cover, coloque el 100% en movil para evitar scroll hacia los lados, trabaje el munu header: posicionandolo en HeaderBar.vue, acomode el 80% del componente newDestination.vue, falta el responsive.
+
+martes 18/12 elimine el margin-botton que tenìa el countdown.vue, para de esta manera posicionar el newDestination.vue 

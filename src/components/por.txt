@@ -1,0 +1,22 @@
+            <div class="container">
+              <div class="row">
+                    <div class="sunglasses-destination">
+                        <div class="button-section col-6">
+                          <p class="above-text"> 07<span> &sdot; </span>JUN - 12<span> &sdot; </span>JUN</p>
+                          <div class="sunglasses-button">
+                            <img src="/../static/images/Boton-Destino.png" class="img-fluid" alt="">
+                          <p class="up-text">GREEK</p>
+                          <p class="down-text">ISLAND CRUISE</p>
+                        </div>
+                       </div>
+                      <div class="button-section-dos col-6">
+                        <p class="above-text"> 15<span> &sdot; </span>JUN - 20<span> &sdot; </span>JUN</p>
+                        <div class="sunglasses-button">
+                          <img src="/../static/images/Boton-Destino.png" class="img-fluid" alt="">
+                          <p class="up-text">ANTALYA</p>
+                          <p class="down-text">TURKEY RESORT</p>
+                        </div>
+                      </div> 
+                     </div>
+              </div>
+            </div>

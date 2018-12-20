@@ -1,0 +1,599 @@
+@import '/static/styles/fonts.css';
+
+@font-face {
+    font-family: Espacio;
+    src: url(../fonts/Espacio-Novo-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: Neue;
+    src: url(../fonts/HelveticaNeue-02.ttf);
+  }
+
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+    line-height: 1.4;
+    font-family: Espacio;
+}
+
+
+body {
+    background-color: #000;
+    background-image: url('../images/BG-Intro-movil.png');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    width: 100%;
+}
+
+/*#app {
+    overflow-x: hidden !important;
+}*/
+
+.main-section {
+    min-height: 100vh;
+}
+
+.font-Ail {
+    font-family: 'Ailerons'
+}
+
+.font-Neon {
+    font-family: 'Neon'
+}
+
+.font-Cae {
+    font-family: 'Caecilia'
+}
+
+.font-Flat {
+    font-family: 'Flathead';
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.title {
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 0 0 11px rgb(255, 255, 255), 0 0 60px rgba(0, 0, 0, 0), 0 0 100px rgba(21, 21, 21, .2), -2px 5px 10px rgba(0, 0, 0, 1);
+    
+}
+/* background para la pàgina de lenguajes */
+@media(max-width: 767px) {
+
+    body, html{
+        height: 100%;
+    }
+    .bg{
+        z-index: 1;
+        background-image:url('/static/images/BG-Intro-movil.png');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+}
+
+.fluid-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 850px;
+}
+
+h1,h2,h3,h4{
+    line-height: 1;
+}
+/*Fuentes generales*/
+
+#app.tr .font-Flat,
+#app.ro .font-Flat,
+#app.cs .font-Flat,
+#app.pl .font-Flat,
+#app.pt-pt .font-Flat,
+#app.fr .font-Flat,
+#app.es .font-Flat {
+    font-family: 'Helvetica' !important;
+}
+
+#app.fr h2,
+#app.fr h4,
+#app.fr h3,
+#app.fr .subtitle,
+#app.fr button,
+#app.pt-pt h2,
+#app.pt-pt h4,
+#app.pt-pt h3,
+#app.pt-pt .subtitle,
+#app.pt-pt button,
+#app.tr h2,
+#app.tr h4,
+#app.tr h3,
+#app.tr .subtitle,
+#app.tr button,
+#app.cs h2,
+#app.cs h4,
+#app.cs h3,
+#app.cs .subtitle,
+#app.cs button,
+#app.pl h2,
+#app.pl h4,
+#app.pl h3,
+#app.pl button,
+#app.ro .subtitle,
+#app.ro h2,
+#app.ro h4,
+#app.ro h3,
+#app.ro button,
+#app.ro .subtitle,
+#app.es h2,
+#app.es h4,
+#app.es h3,
+#app.es button,
+#app.es .subtitle {
+    font-family: 'Helvetica' !important;
+}
+
+#app.tr .font-Ail,
+#app.cs .font-Ail,
+#app.ro .font-Ail,
+#app.pl .font-Ail {
+    font-family: 'ArialN' !important;
+}
+
+
+
+#app.tr .destacado .item-destacado .signButton h2,
+#app.ro .destacado .item-destacado .signButton h2,
+#app.cs .destacado .item-destacado .signButton h2,
+#app.pl .destacado .item-destacado .signButton h2,
+#app.pt-pt .destacado .item-destacado .signButton h2,
+#app.fr .destacado .item-destacado .signButton h2,
+#app.es .destacado .item-destacado .signButton h2 {
+    font-size: 46px;
+}
+
+
+#app.tr .items .buttons ,
+#app.ro .items .buttons ,
+#app.cs .items .buttons ,
+#app.pl .items .buttons ,
+#app.pt-pt .items .buttons,
+#app.fr .items .buttons ,
+#app.es .items .buttons,
+#app.de .items .buttons,
+#app.it .items .buttons  {
+    display: flex;
+}
+
+#app.tr .items .buttons a:nth-child(1) ,
+#app.ro .items .buttons a:nth-child(1) ,
+#app.cs .items .buttons a:nth-child(1) ,
+#app.pl .items .buttons a:nth-child(1) ,
+#app.pt-pt .items .buttons a:nth-child(1),
+#app.fr .items .buttons a:nth-child(1) ,
+#app.es .items .buttons a:nth-child(1){
+    flex-basis: 40%;
+}
+
+#app.ro .items .buttons a:nth-child(1) button ,
+#app.cs .items .buttons a:nth-child(1) button ,
+#app.pl .items .buttons a:nth-child(1) button ,
+#app.pt-pt .items .buttons a:nth-child(1) button,
+#app.fr .items .buttons a:nth-child(1) button ,
+#app.es .items .buttons a:nth-child(1) button  {
+    line-height: 11px;
+
+}
+#app.ro .items .buttons a  button{
+    line-height: 11px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    height: 50px;
+}
+
+/*it and de*/
+#app.de  .buttons,
+#app.it  .buttons,
+#app.fr .destacado .buttons,
+#app.ro .destacado .buttons{
+    display: flex;
+}
+#app.de  .buttons a:nth-child(2),
+#app.it  .buttons a:nth-child(2),
+#app.fr .destacado .buttons a:nth-child(2),
+#app.ro .destacado .buttons a:nth-child(2) {
+    flex-basis: 50%;
+}
+#app.de  .buttons a button,
+#app.it  .buttons a button,
+#app.fr .destacado .buttons a button,
+#app.ro .destacado .buttons a button {
+    line-height: 11px;
+    height: 55px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+/* only tr sytles*/
+
+#app.tr .items .buttons a:nth-child(1) button {
+    line-height: 11px;
+    height: 55px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#app.tr .destacado .buttons{
+    display: flex;
+}
+#app.tr .destacado .buttons a:nth-child(1){
+    flex-basis: 45%;
+}
+#app.tr .destacado .item .buttons a:nth-child(1) button {
+    line-height: 11px;
+    height: 55px;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+
+
+.tx-center {
+    text-align: center;
+}
+
+.tx-left {
+    text-align: left;
+}
+
+tx-right {
+    text-align: right;
+}
+
+primary-color {
+    color: #D60058;
+}
+
+.main-color {
+    color: #D60058;
+    text-shadow: none;
+}
+
+white {
+    color: #fff;
+}
+
+
+/*scroll bar table star*/
+
+.table-wrapper::-webkit-scrollbar {
+    height: 10px;
+}
+
+.table-wrapper::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background-color: #7F7F7F;
+}
+
+.language .sign,
+.logoTop .sign {
+    width: 44%;
+    margin: -15px auto;
+    position: relative;
+}
+
+.language .sign img.logoHer,
+.logoTop .sign img.logoHer {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+}
+.close{
+    cursor: pointer;
+    z-index: 3;
+}
+.close a {
+    position: fixed;
+    top: 100px;
+    right: 50px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.close img {
+    width: 28px;
+    position: relative;
+    top: 10px;
+}
+
+li.zanzibar,
+span.zanzibar {
+    display: none;
+}
+.zanzibarPage li.zanzibar,
+.zanzibarPage span.zanzibar{
+    display: block;
+}
+@media(max-width: 767px) {
+    .close a {
+        position: relative;
+        top: 0;
+        right: 0;
+        font-size: 0;
+    }
+    .destination > .close,
+    .close{
+        position: fixed !important;
+        z-index: 9999;
+        top: 10px !important;
+        right: 15px !important;
+        font-size: 0;
+    }
+    .main-section {
+        padding-top: 70px;
+    }
+    #app .faqs .fluid-container,
+    #app .terms .fluid-container  {
+        padding-top: 100px;
+    }
+    body {
+        -webkit-background-size: contain;
+        background-size: contain;
+    }
+    /*.destination, .home, .faqs, .terms{
+        overflow: auto;
+        height: 100vh;
+    }*/
+}
+
+
+/*
+ * Green Sign Styles
+ * &::before - odd
+ * &::after - even
+ */
+
+.sign-green.animated {
+    position: relative;
+    background-image: url('../images/Aviso_base.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% auto !important;
+    background-position: center center !important;
+}
+
+.sign-green.animated>* {
+    position: relative;
+    z-index: 2;
+}
+
+.sign-green.animated::before,
+.sign-green.animated::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    opacity: 0;
+    z-index: 1;
+}
+
+.sign-green.animated::before {
+    background-image: url('../images/Aviso_lights_odd.png');
+}
+
+.sign-green.animated::after {
+    background-image: url('../images/Aviso_lights_even.png');
+}
+
+.sign-green.animated::before,
+.sign-green.animated::after {
+    opacity: 1;
+}
+
+.sign-green.animated::before {
+    animation: SignLightsOdd .4s ease-out infinite;
+}
+
+.sign-green.animated::after {
+    animation: SignLightsEven .4s ease-out infinite;
+}
+
+@keyframes SignLightsEven {
+    from {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes SignLightsOdd {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .sign-green {
+        position: relative;
+        background-image: url('../images/Aviso_base.png') !important;
+        background-repeat: no-repeat !important;
+        background-size: 100% auto !important;
+        background-position: center center !important;
+    }
+    .sign-green>* {
+        position: relative;
+        z-index: 2;
+    }
+    .sign-green::before,
+    .sign-green::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center center;
+        opacity: 0;
+        z-index: 1;
+    }
+    .sign-green::before {
+        background-image: url('../images/Aviso_lights_odd.png');
+    }
+    .sign-green::after {
+        background-image: url('../images/Aviso_lights_even.png');
+    }
+    .sign-green:hover::before,
+    .sign-green:hover::after {
+        opacity: 1;
+    }
+    .sign-green:hover::before {
+        animation: SignLightsOdd .4s ease-out infinite;
+    }
+    .sign-green:hover::after {
+        animation: SignLightsEven .4s ease-out infinite;
+    }
+}
+
+
+/*
+ * Arrow Sign Styles
+ * &::before - odd
+ * &::after - even
+ */
+
+.sign-arrow-light {
+    position: relative;
+    display: block;
+}
+
+.sign-arrow-light img {
+    display: block;
+}
+
+.sign-arrow-light::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/Flecha_3_on.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    opacity: 0;
+    z-index: 1;
+    animation: SignArrowLights 3s ease-in infinite;
+}
+
+@keyframes SignArrowLights {
+    from {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+
+/*
+ * Arrow Sign Styles
+ * &::before - odd
+ * &::after - even
+ */
+
+.sign-arrow-light-2 {
+    position: relative;
+    display: block;
+}
+
+.sign-arrow-light-2 img {
+    display: block;
+}
+
+.sign-arrow-light-2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../images/Flecha_2_on.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    opacity: 0;
+    z-index: 1;
+    animation: SignArrowLights2 3s ease-in infinite;
+}
+
+@keyframes SignArrowLights2 {
+    from {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.bgGray{
+    background: rgba(0, 0, 0, 0.4);
+}
+.noBg .starQua{
+    background: transparent !important;
+}
+
+/* boton para información*/

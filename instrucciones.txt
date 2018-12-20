@@ -1,0 +1,32 @@
+This project contains the website for herbalife vacations 2019
+
+Its made with vue.js and react.js for the most part
+
+Vue.js is about components, basically components are made of a template containing all desirable html, scripts worked on javascript and styles usually made on plain css or sass
+
+the site is run using the terminal on ubuntu npm install, npm run dev. These commands install the necessary components for the developers to work on a testing enviroment
+
+Inside the folder you would find a src folder which contains 4 folders with assests, components, pages and router, you will find also another folder called static.
+
+In static you will find folders containing the fonts, the images and the styles used throughout the whole project
+
+Menawhile, in the src folder you can check out all the components and all pages used at the moment
+
+Be advised to keep the same structure presented, for example, if you wanna add an new image then locate it in the images folders
+
+The site has 7 pages which rules differentes sections of the page. Each page has several components at its disposal, containing styles, animations, scripts and more.
+
+Every page has a way to load components which are specified in the script section of the said page, that way the developer can understand which components are being loaded by whose page
+
+This project is basically about recycling pages and componenets, as well as adding new ones
+
+Much of the project is basically undocumented so unfortunately its a bit tricky to understand the whole code and what it does, so in order to tackle the schedule (which is very tight for junior developers) new components will be added to the page while eeping the old ones just in case there is need or an oportunity to recycle said code.
+
+More instructions targeted to help new deveopers will come as the project is in progress at the moment
+
+  
+
+
+
+
+
