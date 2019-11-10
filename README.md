@@ -22,7 +22,6 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 #https://emeavacationreg.com/cmsweb/wp-admin
 
-#user: admin
-#password: mocion.2040
+
 
 #destanations
